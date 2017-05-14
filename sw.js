@@ -1,7 +1,7 @@
 const cacheName = "v1";
 
 self.addEventListener("install", () => {
-    console.log("coucou v23");
+    console.log("service worker installed");
 });
 
 self.addEventListener('fetch', (event) => {
